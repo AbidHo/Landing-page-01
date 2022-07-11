@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Mazzard";
+  src: local("Mazzard H Medium"), local("Mazzard-H-Medium"), url("MazzardH-Medium.woff2") format("woff2"),
+    url("MazzardH-Medium.woff") format("woff"), url("MazzardH-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  font-family: Mazzard;
+  background-image: url(/Images/hero-bg.png);
+}
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  align-items: center;
+}
+.logo {
+  width: 55%;
+}
+.logo img {
+  width: 90px;
+}
+
+.Menus a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #202f52;
+  font-weight: 500;
+}
+.Buttons button {
+  height: 45px;
+  width: 130px;
+  border-radius: 10px;
+  border: none;
+  font-family: Mazzard;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ff7139;
+  -webkit-box-shadow: 0px 0px 123px 5px rgba(245, 135, 17, 0.9);
+  -moz-box-shadow: 0px 0px 123px 5px rgba(245, 135, 17, 0.9);
+  box-shadow: 0px 0px 123px 5px rgba(245, 135, 17, 0.9);
+}
+.hero {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 90vh;
+  align-items: center;
+}
+.hero .content h1 {
+  font-family: Mazzard;
+  font-size: 75px;
+  font-weight: 600;
+  color: #213053;
+  margin: 0;
+}
+.hero .content p {
+  opacity: 0.8;
+  color: #747985;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.free-acount {
+  height: 45px;
+  width: 230px;
+  border-radius: 10px;
+  border: none;
+  font-family: Mazzard;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ff7139;
+  -webkit-box-shadow: 0px 0px 123px 5px rgba(245, 135, 17, 0.9);
+  -moz-box-shadow: 0px 0px 123px 5px rgba(245, 135, 17, 0.9);
+  box-shadow: 0px 0px 123px 5px rgba(245, 135, 17, 0.9);
+}
+.women-class{
+    width: 500px;
+}
