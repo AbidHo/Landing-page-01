@@ -7,7 +7,7 @@
 }
 body {
   font-family: Mazzard;
-  background-image: url(/Images/hero-bg.png);
+  background-image: url(hero-bg.png);
 }
 .header {
   height: 10vh;
